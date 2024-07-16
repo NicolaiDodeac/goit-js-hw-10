@@ -34,6 +34,8 @@ const options = {
       ref.startButton.disabled = true;
       return iziToast.show({
         title: 'Please choose a date in the future',
+        color: 'red',
+        position: 'topRight',
       });
     } else {
       ref.startButton.disabled = false;
