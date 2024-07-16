@@ -31,9 +31,8 @@ formRef.addEventListener('submit', e => {
     .catch(error => {
       iziToast.show({
         title: '',
-        message: `❌ Rejected promise in $
-        {delay}ms`,
-        color: '',
+        message: `❌ Rejected promise in ${delay}ms`,
+        color: 'red',
         position: 'topRight',
       });
     });
